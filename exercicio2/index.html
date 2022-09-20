@@ -1,3 +1,9 @@
+<!--Adicione a cada um dos climas as tags de mídia correspondentes (imagem, áudio e vídeo). 
+    Os arquivos de mídia estão na pasta `media`.
+
+Caso já tenha feito o exercício 1, pode utilizar o HTML alterado lá para substituir o index.html deste exercício. 
+Novamente, o arquivo `.css` foi utilizado apenas para facilitar a visualizacão, e não deve ser alterado.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,31 +11,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Exercício 2</title>
+    <title>Exercício 1</title>
 </head>
 <body>
-    <div class="a">
+    <header class="a">
         <h1>Simulador de climas</h1>
-    </div>
+    </header>
     
-    <div class="b">
+    <section class="b">
     
-        <div class="c">
-            <div class="d">
+        <article class="c">
+            <article class="d">
                 <h2>Chuva</h2>
-            </div>
-            <div class="d">
+                <audio src="./media/chuva.mp3"></audio>
+                <img src="./media/chuva.jpeg"></img>
+                <video src="./media/chuva.mp4"></video>
+            </article>
+            <article class="d">
                 <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
+                <audio src="media/animais.mp3"></audio>
+                <img src= "./media/animais.jpeg"></img>
+                <video src="./media/animais.mp4"></video>
+            </article>
+            <article class="d">
                 <h2>Tempestade</h2>
-            </div>
-        </div>
+                <audio src="media/tempestade.mp3"></audio>
+                <img src="media/tempestade.jpeg"></img>
+                <video src="media/tempestade.mp4"></video>
+            </article>
+        </article>
     
-    </div>
-    <div class="e">
+    </section>
+    <footer class="e">
         <p>Sugira um clima!</p>
-    </div>
+    </footer>
     
 </body>
 </html>
